@@ -7,8 +7,8 @@ header, main, nav, footer{
     text-align: center;
 }
 h1{
-  
-    font-size: 20pt;
+    font-family: 'Audiowide', cursive;
+    font-size: 36pt;
     margin-bottom: 0px;
 }
 nav a{ /*links in nav*/
@@ -19,7 +19,7 @@ nav a{ /*links in nav*/
     color:white;
 }
 nav a:hover{
-    border-bottom: 2px orange solid;
+    border-bottom: 1.8px orange solid;
     font-size: 1.8em;
     transition: .6;
 }
