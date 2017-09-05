@@ -1,0 +1,71 @@
+
+body{
+    background-color: darkblue;
+    color:gray;
+}
+header, main, nav, footer{
+    text-align: center;
+}
+h1{
+  
+    font-size: 20pt;
+    margin-bottom: 0px;
+}
+nav a{ /*links in nav*/
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.6em;
+    text-decoration: none;
+    color:white;
+}
+nav a:hover{
+    border-bottom: 2px orange solid;
+    font-size: 1.8em;
+    transition: .6;
+}
+#me,#welcomeText{
+    float:left;
+    font-size: 18pt;
+  
+}
+#welcomeText{
+      text-align: left;
+}
+#otter{
+    float: center;
+}
+#footerText
+{
+    font-size: 9pt;
+    color:darkred;
+}
+footer{
+    clear:left;
+}
+table{
+    margin:0px auto;
+}
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong{
+    color: black;
+}
+li{
+    font-size: 1.2em;
+}
+ul{
+    text-align: left;
+    padding-left: 200px;
+}
+#table-header{
+    background-color: silver;
+}
+
+.table-row{
+    background-color: brown;
+}
+.hobby{
+    color:blue;
+}
