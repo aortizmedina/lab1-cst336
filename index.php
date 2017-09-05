@@ -1,0 +1,79 @@
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        
+          <meta charset="utf-8">
+       
+            <title> AngelOrtiz </title>
+            <link href="css/styles.css" rel="stylesheet" type="text/css" />
+            <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        
+         <header> <h1>Angel Ortiz</h1> </header>
+        
+        <!------------- NAVIGATION --------------->
+        <nav>
+            <hr width="50%" />
+            <a href="index.html"> Home </a>
+             <a href="about.html"> About </a>
+              <a href="contact.html"> Contract </a>
+        </nav>
+           <br /><br />
+           <main>
+               
+               <figure id="me">
+                   <img src="img/Angel_o.png" alt="Picture of Angel Ortiz" />
+               </figure>
+          
+           <div id="welcomeText">
+               HELLO! <br />
+               <p> Thank You for Visiting my personal portfolio</p>
+               <p> I am Software Engineer and is currently attending CSUMB</p>
+               <p>Feel Free to contact me!</p>
+               <br /><br />
+               <p>
+              <p> <em>"If you can't fly, then run,</em></p>
+               <p><em>if you can't run, then walk</em></p>
+              <p><em>if can't walk, then crawl,</em></p>
+              <em>but whatever you do,</em>
+              <em><strong>you have to keep going</strong></em>
+              </p>
+               -MLK
+               <br />
+           </div>
+         </main>
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer id="footerText">
+            <hr>
+          Internet Programming CST336. 2017&copy; Ortiz <br />
+            <strong> Disclaimer:</strong>The information in this webpage is fictitous. <br />
+            Used for academic purposes only.
+            
+            <br />
+              <figure id="otter">
+                   <img src="img/csumb.png" alt="Picture of otter" />
+               </figure>
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
